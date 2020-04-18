@@ -1,3 +1,6 @@
+Duplicate of https://github.com/Roman-Port/RomanPort.BetterSDRRecorder
+
+
 # Better SDR Recorder
 The better SDR recorder is a work in progress plugin to improve on the crappy built in recorder in SDR#
 
