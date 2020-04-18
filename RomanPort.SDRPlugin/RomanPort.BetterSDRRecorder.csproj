@@ -34,13 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SDRSharp.Common">
-      <HintPath>..\..\..\..\Documents\SdrSharp\SDRSharp.Common.dll</HintPath>
+      <HintPath>lib\SDRSharp.Common.dll</HintPath>
     </Reference>
     <Reference Include="SDRSharp.PanView">
-      <HintPath>..\..\..\..\Documents\SdrSharp\SDRSharp.PanView.dll</HintPath>
+      <HintPath>lib\SDRSharp.PanView.dll</HintPath>
     </Reference>
     <Reference Include="SDRSharp.Radio">
-      <HintPath>..\..\..\..\Documents\SdrSharp\SDRSharp.Radio.dll</HintPath>
+      <HintPath>lib\SDRSharp.Radio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,11 +54,11 @@
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.WinControls, Version=2019.3.917.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\SdrSharp\Telerik.WinControls.dll</HintPath>
+      <HintPath>lib\Telerik.WinControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.WinControls.UI, Version=2019.3.917.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\SdrSharp\Telerik.WinControls.UI.dll</HintPath>
+      <HintPath>lib\Telerik.WinControls.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -97,8 +97,5 @@
   <PropertyGroup>
     <PreBuildEvent>taskkill /f /im sdrsharp.exe 2&gt;nul 1&gt;nul
 Exit 0</PreBuildEvent>
-  </PropertyGroup>
-  <PropertyGroup>
-    <PostBuildEvent>copy C:\Users\Roman\source\repos\RomanPort.BetterSDRRecorder\RomanPort.SDRPlugin\bin\Debug\RomanPort.BetterSDRRecorder.dll C:\Users\Roman\Documents\SdrSharp\</PostBuildEvent>
   </PropertyGroup>
 </Project>
